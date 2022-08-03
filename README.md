@@ -48,10 +48,7 @@ Visite las direcciones
 `localhost:3000/usuario/1`
 `localhost:3000/crear`
 
-=======
-# Pet-shop
-Simple Express and Postgresql app
->>>>>>> 2bf0c775230f6ea334a36bd966242c9796dc42f0
+
 =======
 # pet-app
 >>>>>>> 531e8e5db808c02162cb36d1864e6a212c36c056
