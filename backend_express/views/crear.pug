@@ -4,7 +4,6 @@ head
   link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css')
 
   body
-    p test
     .modal-dialog
         .modal-content
           // Modal Header
@@ -13,7 +12,7 @@ head
               span(aria-hidden="true") ×
               span.sr-only Close
             h4#myModalLabel.modal-title
-              | Ingresar mascota
+              | Add your pet
           // Modal Body
           .modal-body
             form(role='form' method='POST' action='http://localhost:3000/crear/')
@@ -43,14 +42,14 @@ head
               div.form-group
                 label(for='toy') Favorite toy:
                 select(name='toy')
-                  option(value='bola1') bola1
-                  option(value='cadena') cadena
-                  option(value='raton1') raton1
-                  option(value='raton2') raton2
-                  option(value='bola2') bola2
-                  option(value='gallo1') gallo1 
-                  option(value='peluza1') peluza1
-                  option(value='goma1') goma1    
+                  option(value='pelota') pelota
+                  option(value='lazo') lazo
+                  option(value='raton') raton
+                  option(value='hueso') hueso
+                  option(value='mascara') mascara
+                  option(value='peluche') peluche
+                  option(value='peluza') peluza
+                  option(value='goma') goma 
               div.form-group
                 label(for='color') Toy color:
                 select(name='color')
@@ -62,4 +61,4 @@ head
               button.btn.btn-primary(type="submit", name="asdf") Create
           // Modal Footer
           .modal-footer
-            h4 footer
+            
